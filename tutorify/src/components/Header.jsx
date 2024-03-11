@@ -11,7 +11,7 @@ import chart from '../assets/img/Chart.png';
 
 const Header = () => {
   return (
-    <div className='container mx-auto px-5 pt-2'>
+    <div className='container mx-auto px-5 pt-10'>
         <div className='flex flex-col md:flex-row justify-between items-center'>
             <div className='md:w-1/2'>
                 <div className='flex justify-start items-center space-x-4 text-[#FB9C46] font-semibold text-[16px] pb-4'>
