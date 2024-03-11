@@ -34,7 +34,7 @@ const Navbar = () => {
                             <FiMenu className='text-[#FB9C46] w-[24px] h-[29.58px] md:hidden'/>
                         }
                 </div>
-             <div className={`absolute bg-gray-200 pt-10 flex h-[90vh] flex-col md:pt-0 md:bg-white md:relative left-0 w-[100%] md:w-auto md:h-auto md:flex-row justify-start md:justify-between items-center space-y-5 md:space-y-0 md:space-x-10 text-[16px] font-semibold ${nav ? 'left-0 transition-all duration-700' : 'left-[-1000px] transition-all duration-700'} md:left-0`}>
+             <div className={`absolute bg-gray-200 pt-10 flex h-[70vh] flex-col md:pt-0 md:bg-white md:relative left-0 w-[100%] md:w-auto md:h-auto md:flex-row justify-start md:justify-between items-center space-y-5 md:space-y-0 md:space-x-10 text-[16px] font-semibold ${nav ? 'left-0 transition-all duration-700' : 'left-[-1000px] transition-all duration-700'} md:left-0`}>
                 <ul className=''>
                     {
                         Links.map((data) => (
