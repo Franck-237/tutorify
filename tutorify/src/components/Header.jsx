@@ -20,7 +20,7 @@ const Header = () => {
                     <p className='text-[#90A3B4] font-medium text-[14px] lg:text-[18px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id interdum dui mollis . Suspendisse nulla :</p>
                 </div>
                 <div className='pb-8'>
-                    <button className='text-white bg-[#058E6E] py-2 px-4 border text-[18px] rounded-xl shadow-md'>Try Free Lessons</button>
+                    <button className='text-white bg-[#058E6E] py-2 px-4 border text-[18px] rounded-xl shadow-md hover:text-[#058E6E] hover:bg-white hover:transition-all hover:duration-500'>Try Free Lessons</button>
                 </div>
             </div>
             <div>

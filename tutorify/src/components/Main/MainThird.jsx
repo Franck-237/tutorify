@@ -44,7 +44,7 @@ const MainThird = () => {
                </div>
             </div>
             <div className='pt-12 lg:pt-0'>
-                <img src={triangle} alt="" className='absolute pl-24 pt-24 md:pl-20 md:pt-20 lg:pl-24 lg:pt-24'/>
+                <img src={triangle} alt="" className='absolute pl-24 pt-24 md:pl-20 md:pt-20 xl:pl-32 xl:pt-32'/>
                 <img src={video} alt="" className='w-[300px] md:w-auto'/>
             </div>
         </div>

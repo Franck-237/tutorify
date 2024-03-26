@@ -34,12 +34,12 @@ const Navbar = () => {
                             <FiMenu className='text-[#FB9C46] w-[24px] h-[29.58px] md:hidden'/>
                         }
                 </div>
-             <div className={`absolute bg-gray-200 pt-10 flex h-[70vh] flex-col md:pt-0 md:bg-white md:relative left-0 w-[100%] md:w-auto md:h-auto md:flex-row justify-start md:justify-between items-center space-y-5 md:space-y-0 md:space-x-10 text-[16px] font-semibold ${nav ? 'left-0 transition-all duration-700' : 'left-[-1000px] transition-all duration-700'} md:left-0`}>
+             <div className={`absolute bg-gray-200 pt-10 flex h-[100vh] flex-col md:pt-0 md:bg-white md:relative left-0 w-[100%] md:w-auto md:h-auto md:flex-row justify-start md:justify-between items-center space-y-5 md:space-y-0 md:space-x-10 text-[16px] font-semibold ${nav ? 'left-0 top-[65px] transition-all duration-700' : 'left-[-1000px] transition-all duration-700'} md:left-0`}>
                 <ul className=''>
                     {
                         Links.map((data) => (
-                            <li key={data.title} className='space-y-4 md:space-y-0 md:inline-block md:pr-4'>
-                                <a href="" className='text-[#393939] hover:text-[#FB9C46] focus:text-[#FB9C46]'>{data.title}</a>
+                            <li key={data.title} className='block md:inline-block md:pr-4 text-center pb-3'>
+                                <a href="" className='text-[#393939] hover:text-[#FB9C46]'>{data.title}</a>
                             </li>
                         ))
                     }

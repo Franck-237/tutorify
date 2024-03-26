@@ -14,8 +14,8 @@ const MainFirst = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem habitant a tincidunt cras accumsan integer suscipit. Libero accumsan eget aliquet.</p>
                 </div>
                 <div className='pb-5'>
-                    <button className='bg-[#FB9C46] px-3 py-2 border rounded-xl text-white mr-3 text-[12px] lg:text-[18px]'>Book Your Lessons</button>
-                    <button className='px-3 py-2 border border-[#FB9C46] rounded-xl text-[#FB9C46] text-[12px] lg:text-[18px]'>Find Your Tutors</button>
+                    <button className='bg-[#FB9C46] px-3 py-2 border rounded-xl text-white mr-3 text-[12px] lg:text-[18px] hover:bg-white hover:text-[#FB9C46] hover:transition-all hover:duration-500'>Book Your Lessons</button>
+                    <button className='px-3 py-2 border border-[#FB9C46] rounded-xl text-[#FB9C46] text-[12px] lg:text-[18px] hover:bg-[#FB9C46] hover:text-white hover:transition-all hover:duration-500'>Find Your Tutors</button>
                 </div>
             </div>
             <div>

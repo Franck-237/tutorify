@@ -17,7 +17,7 @@ const MainFourth = () => {
                     <p className='text-[#90A3B4] text-[12px] lg:text-[16px]'>cultivating new perspectives, and connecting with fascinating people from around the world.</p>
                 </div>
             </div>
-            <div className='pt-10'> 
+            <div className='mt-10 bg-[#e7d4c1] border border-1 rounded-2xl py-2 px-3'> 
                     <div>
                         <div>
                             <img src={star} alt="" className=''/>
